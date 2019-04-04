@@ -1,0 +1,184 @@
+# Audio
+af.fast_track_multiplier=1
+vendor.audio_hal.period_size=192
+vendor.audio.dolby.ds2.enabled=false
+vendor.audio.dolby.ds2.hardbypass=false
+audio.deep_buffer.media=true
+vendor.audio.offload.buffer.size.kb=64
+vendor.audio.offload.gapless.enabled=true
+vendor.audio.offload.multiaac.enable=true
+vendor.audio.offload.multiple.enabled=false
+vendor.audio.offload.passthrough=false
+vendor.audio.offload.track.enable=true
+audio.offload.video=true
+vendor.audio.parser.ip.buffer.size=262144
+vendor.audio.safx.pbe.enabled=true
+persist.vendor.audio.fluence.voicecall=true
+persist.vendor.audio.fluence.voicerec=false
+persist.vendor.audio.fluence.speaker=true
+ro.vendor.audio.sdk.fluencetype=fluence
+ro.vendor.audio.sdk.ssr=false
+persist.vendor.bt.enable.splita2dp=false
+vendor.audio.tunnel.encode=false
+vendor.voice.path.for.pcm.voip=true
+persist.vendor.audio.speaker.prot.enable=true
+
+# Bluetooth
+bt.max.hfpclient.connections=1
+qcom.bluetooth.soc=rome
+ro.bluetooth.emb_wp_mode=true
+ro.bluetooth.wipower=true
+
+# Camera
+camera.disable_zsl_mode=0
+
+# CNE
+persist.cne.feature=1
+
+# Data modules
+persist.data.mode=concurrent
+persist.data.netmgrd.qos.enable=true
+ro.use_data_netmgrd=true
+persist.data.iwlan.enable=true
+
+# Device was launched with M
+ro.product.first_api_level=23
+
+# Display (Qualcomm AD)
+ro.qualcomm.cabl=2
+ro.qcom.ad=1
+ro.qcom.ad.calib.data=/system/etc/calib.cfg
+ro.qcom.ad.sensortype=2
+
+# Fingerprint
+persist.qfp=false
+
+# Google
+ro.opa.eligible_device=true
+
+# Graphics
+debug.gralloc.enable_fb_ubwc=1
+persist.hwc.enable_vds=1
+persist.camera.preview.ubwc=0
+persist.camera.video.ubwc=0
+ro.opengles.version=196610
+ro.persist.qcapb=1
+ro.sf.lcd_density=420
+sdm.perf_hint_window=50
+debug.sf.latch_unsignaled=1
+sdm.debug.disable_skip_validate=1
+debug.sf.recomputecrop=0
+
+# GPS
+persist.gps.qc_nlp_in_use=1
+persist.loc.nlp_name=com.qualcomm.location
+ro.gps.agps_provider=1
+
+# Hdmi
+vendor.audio.hw.aac.encoder=true
+
+#Property to enable display default color mode
+vendor.display.enable_default_color_mode=1
+
+# Media
+vendor.vidc.enc.disable.pq=true
+vidc.enc.dcvs.extra-buff-count=2
+vendor.audio.flac.sw.decoder.24bit=true
+media.aac_51_output_enabled=true
+mm.enable.smoothstreaming=true
+vendor.audio.use.sw.alac.decoder=true
+vendor.audio.use.sw.ape.decoder=true
+
+# NITZ
+persist.rild.nitz_plmn=""
+persist.rild.nitz_long_ons_0=""
+persist.rild.nitz_long_ons_1=""
+persist.rild.nitz_long_ons_2=""
+persist.rild.nitz_long_ons_3=""
+persist.rild.nitz_short_ons_0=""
+persist.rild.nitz_short_ons_1=""
+persist.rild.nitz_short_ons_2=""
+persist.rild.nitz_short_ons_3=""
+
+# Perf
+ro.am.reschedule_service=true
+ro.min_freq_0=307200
+ro.min_freq_4=307200
+ro.vendor.qti.sys.fw.bg_apps_limit=60
+ro.vendor.extension_library=libqti-perfd-client.so
+
+# Priv-app permissions whitelist
+ro.control_privapp_permissions=enforce
+
+# Radio
+DEVICE_PROVISIONED=1
+rild.libpath=/vendor/lib64/libril-qc-qmi-1.so
+ril.subscription.types=NV,RUIM
+ro.telephony.call_ring.multiple=false
+ro.telephony.default_cdma_sub=0
+ro.telephony.default_network=20,20
+persist.data.qmi.adb_logmask=0
+persist.net.doxlat=true
+persist.radio.apm_sim_not_pwdn=1
+persist.radio.force_on_dc=true
+persist.radio.multisim.config=dsds
+persist.radio.redir_party_num=1
+persist.vendor.radio.custom_ecc=1
+persist.radio.sw_mbn_update=1
+persist.radio.hw_mbn_update=1
+persist.vendor.radio.rat_on=combine
+persist.vendor.radio.sib16_support=1
+persist.vendor.radio.add_power_save=1
+
+# IMS
+persist.dbg.volte_avail_ovr=1
+persist.dbg.vt_avail_ovr=1
+
+# RmNet Data
+persist.rmnet.data.enable=true
+persist.data.wda.enable=true
+persist.data.df.dl_mode=5
+persist.data.df.ul_mode=5
+persist.data.df.agg.dl_pkt=10
+persist.data.df.agg.dl_size=4096
+persist.data.df.mux_count=8
+persist.data.df.iwlan_mux=9
+persist.data.df.dev_name=rmnet_usb0
+
+# Storage
+persist.fuse_sdcard=true
+
+# Sdcardfs
+ro.sys.sdcardfs=true
+
+# TimeService
+persist.timed.enable=true
+
+# Google Assistant
+ro.opa.eligible_device=true
+
+# Google WFD settings
+persist.debug.wfd.enable=1
+persist.sys.wfd.virtual=0
+debug.sf.enable_hwc_vds=1
+
+# Create zram disk
+ro.vendor.qti.config.zram=true
+
+# ADB
+ro.adb.secure=0
+ro.secure=0
+ro.allow.mock.location=1
+persist.service.adb.enable=1
+persist.service.debuggable=1
+persist.sys.usb.config=mtp,adb
+
+#ui-trends
+sys.use_fifo_ui=1
+
+# touch optimize
+persist.vendor.qti.inputopts.enable=true
+
+# USB
+sys.usb.controller=6a00000.dwc3
+sys.usb.rndis.func.name=rndis_bam
